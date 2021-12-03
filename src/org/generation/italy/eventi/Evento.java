@@ -78,9 +78,7 @@ public class Evento {
 	}
 	
 	private String dataFormattata() {
-		String dataFormattata;
 		DateTimeFormatter t = DateTimeFormatter.ofPattern("dd/MM/yyyy");
-		dataFormattata = data.format(t);
-		return dataFormattata;
+		return  data.format(t);
 	}
 }
